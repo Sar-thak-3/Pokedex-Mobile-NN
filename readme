@@ -1,0 +1,25 @@
+# Firebase ML Kit
+Google i/o 2018
+Contains prebuilt API's which provide ML functionalities for Android and iOS apps
+Support for running custom models
+
+Available API's
+  ->Text recognition
+  ->Face detection
+  ->Barcode scanning
+  ->Image labelling
+  ->Landmark recognition
+  ->Hosting custom Tensorflow models
+
+1. Creating a good dataset (Minimum 150 images of each class, Noise should be there in training data, augment dataset by rotation, scaling and cropping)
+2. Training the model (Transfer Learning, convert trained model to a tensorflow lite build-> for mobiles)
+3. Upload model to Firebase
+4. Set up the model with firebase
+5. Run the model over the image(specify input and output)
+6. Extract data from the result
+
+Barcode scanner wIth MLKit CodeLab -> https://goo.gl/sFueGj
+Image labelling with Mlkit codelab -> https://goo.gl/uPBNpB
+Text recognition -> https://goo.gl/QPstLM
+Codelab for running a custom model with Mlkit -> https://goo.gl/XwTkoa
+https://github.com/the-dagger/MLKitAndroid/
